@@ -30,6 +30,7 @@ def vyGenericObjectRepr(obj):
         if l == 1:
             valStr1 = valStr
         else:
+            valStr1 = ''
             while valArr[-1] == '':
                 del(valArr[-1])
             for vali in valArr:
