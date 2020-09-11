@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="vyGeneric-niteshb",
-    version="0.0.1",
+    name="vyGeneric",
+    version="0.0.2",
     author="Nitesh Bhandari",
-    author_email="nitesh@vayavya.co.in",
+    #author_email="nitesh@vayavya.co.in",
     description="Package for creating generic objects with transparent 'repr'",
     long_description=long_description,
     long_description_content_type="text/markdown",
