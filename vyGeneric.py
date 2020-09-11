@@ -1,7 +1,7 @@
 from importlib import reload
-from . import vyGenericObjectRepr
+from . import vyGenericObjectRepr, vyGenericAbstract
 
-class vyGeneric:
+class vyGeneric(vyGenericAbstract):
     def __init__(self):
         pass
 
