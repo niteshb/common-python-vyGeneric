@@ -7,7 +7,7 @@ setuptools.setup(
     name="vyGeneric",
     version="0.0.2",
     author="Nitesh Bhandari",
-    #author_email="nitesh@vayavya.co.in",
+    # author_email="nitesh@vayavya.co.in",
     description="Package for creating generic objects with transparent 'repr'",
     long_description=long_description,
     long_description_content_type="text/markdown",

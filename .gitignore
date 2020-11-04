@@ -132,4 +132,3 @@ dmypy.json
 .vy-project-config/vy-project-clone-info.bat
 projects-info/
 credentials.py
-.vscode/launch.json

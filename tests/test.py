@@ -1,8 +1,10 @@
 from vyGeneric import vyGenericObjectRepr, vyGeneric
+
 stars80 = '*' * 80
 # Testing for non-vyGeneric classes
 class NotVyGeneric:
     pass
+
 
 obj = NotVyGeneric()
 obj.l1 = NotVyGeneric()

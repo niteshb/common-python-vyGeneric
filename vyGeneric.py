@@ -1,12 +1,14 @@
 from importlib import reload
 from . import vyGenericObjectRepr, vyGenericAbstract
 
+
 class vyGeneric(vyGenericAbstract):
     def __init__(self):
         pass
 
     def __repr__(self):
         return vyGenericObjectRepr(self)
+
 
 class vyGenericDict(vyGeneric):
     def __init__(self):
@@ -18,10 +20,11 @@ class vyGenericDict(vyGeneric):
     def __setitem__(self, key, value):
         self.attrDict[key] = value
 
+
 class vyGenericArray(vyGeneric):
     def __init__(self):
         self.__array = []
-    
+
     def append(self, value):
         self.__array.append(value)
 
@@ -30,4 +33,3 @@ class vyGenericArray(vyGeneric):
 
     def __setitem__(self, idx, value):
         self.__array[idx] = value
-
